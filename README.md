@@ -44,34 +44,34 @@ It automates **Login → Add User → Search User → Delete User** using **Sele
 10. Verify that the number of records **decreased by 1**.  
 ---
 
-## 📂 Project Structure
 OrangeHRM_Automation_Script
 │── pom.xml
 │── .gitignore
 │
 ├── src
-    ├── main
-    │   └── java
-    │       ├── basepage
-    │       │   └── BasePage.java
-    │       │
-    │       └── pages
-    │           ├── LoginPage.java
-    │           ├── OrangeHrmDashboard.java
-    │           ├── AdminPage.java
-    │           └── AddUserPage.java
-    │
-    └── test
-        └── java
-            ├── base
-            │   ├── BaseTest.java
-            │   └── DriverFactory.java
-            │
-            └── tests
-                ├── AllTests.java   // Login → Add User → Search → Delete
-                ├── LoginTest.java      
-                ├── AddUserTest.java   
-                ├── SearchUserTest.java 
-                └── DeleteUserTest.java 
+│   ├── main
+│   │   └── java
+│   │       ├── basepage
+│   │       │   └── BasePage.java
+│   │       │
+│   │       └── pages
+│   │           ├── LoginPage.java
+│   │           ├── OrangeHrmDashboard.java
+│   │           ├── AdminPage.java
+│   │           └── AddUserPage.java
+│   │
+│   └── test
+│       └── java
+│           ├── base
+│           │   ├── BaseTest.java
+│           │   └── DriverFactory.java
+│           │
+│           └── tests
+│               ├── AllTests.java        # Login → Add User → Search → Delete
+│               ├── LoginTest.java
+│               ├── AddUserTest.java
+│               ├── SearchUserTest.java
+│               └── DeleteUserTest.java
+
 
 
