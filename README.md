@@ -44,6 +44,9 @@ It automates **Login → Add User → Search User → Delete User** using **Sele
 10. Verify that the number of records **decreased by 1**.  
 ---
 
+## 📂 Project Structure
+
+```plaintext
 OrangeHRM_Automation_Script
 │── pom.xml
 │── .gitignore
@@ -72,6 +75,3 @@ OrangeHRM_Automation_Script
 │               ├── AddUserTest.java
 │               ├── SearchUserTest.java
 │               └── DeleteUserTest.java
-
-
-
